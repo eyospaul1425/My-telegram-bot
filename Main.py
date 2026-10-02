@@ -46,11 +46,11 @@ def start(message):
       "💬 በቴሌግራም አግኙኝ", url=f"https://t.me/{TELEGRAM_USER}"
   )
   btn4 = types.InlineKeyboardButton("📞 በስልክ ለመደወል", callback_data="call_me")
-  btn5 = types.InlineKeyboardButton("💰 ስለ ዋጋ ለመጠየቅ", callback_data="pricing")
+
 
   markup.add(btn1, btn2)
   markup.add(btn3, btn4)
-  markup.add(btn5)
+  
 
   bot.send_message(
       message.chat.id, welcome_text, reply_markup=markup, parse_mode="Markdown"
