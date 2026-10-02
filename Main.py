@@ -113,12 +113,8 @@ elif call.data == "pricing":
 
 
 if __name__ == "__main__":
-  import threading
-
-  # የዌብ ሰርቨር ስሬድ መጀመር
-  t = threading.Thread(target=run_web)
-  t.start()
-
-  print("ቦቱ በተሳካ ሁኔታ ስራ ጀምሯል... 💪")
-  # 3. የቴሌግራም ቦት ፖሊንግ
-  bot.infinity_polling()
+    import threading
+    t = threading.Thread(target=run_web)
+    t.start()
+    print("ቦቱ በተሳካ ሁኔታ ሥራ ጀምሯል... 💪")
+    bot.infinity_polling()
