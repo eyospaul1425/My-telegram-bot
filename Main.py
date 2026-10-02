@@ -95,14 +95,14 @@ def callback_query(call):
         parse_mode="Markdown",
     )
 
-  elif call.data == "pricing":
+      
     price_text = (
         "💰 **ስለ ክፍያ እና ዋጋ፦**\n\n"
         "የኤዲቲንግ ዋጋ እንደ ስራው አይነት እና እንደ ርዝመቱ ይለያያል።\n\n"
         "ለማንኛውም አይነት ጥያቄ በውስጥ መስመር @eyospaul1425 ላይ መልዕክት ይላኩልኝ ወይም በ"
         " 0949587671 ይደውሉልኝ።"
     )
-    bot.send_message(call.message.chat.id, price_text)
+
 
 
 # 2.  Flask ሰርቨርን ከቦቱ ጋር በአንድ ላይ (Thread) ማስኬጃ
