@@ -106,10 +106,10 @@ elif call.data == "pricing":
 
 
 
-# 2.  Flask ሰርቨርን ከቦቱ ጋር በአንድ ላይ (Thread) ማስኬጃ
-def run_web():
-  port = int(os.environ.get("PORT", 5000))
-  app.run(host="0.0.0.0", port=port)
+# 2.  def run_web():
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
+
 
 
 if __name__ == "__main__":
