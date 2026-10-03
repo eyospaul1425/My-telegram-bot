@@ -4,7 +4,7 @@ from flask import Flask
 import os
 import threading
 
-TOKEN = "8810198160:AAGMImFcdBDhE4wGEevC3cgWOM-CCbVJqDU"
+TOKEN = "8810198160:AAG-Bv20m798RrQSfrJvt1HKNaUZwv6f9Vs"
 
 # የግል መረጃዎች
 OWNER_NAME = "Eyosiyas Paulos"
